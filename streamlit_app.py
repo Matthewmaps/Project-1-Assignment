@@ -37,7 +37,6 @@ if page == '🏠 Home':
   with col3:
     st.metric('skills', '4+', '🚀')
 
-
   st.write('---')
 
 # Introduction with columns
@@ -67,7 +66,7 @@ elif page == '👔 About':
   # Timeline of my Professional Journey
   st.subheader('My Journey 🗺️')
 
-  with st.expander('2025 - Present: Medgar Evers College'):
+  with st.expander('2024 - Present: Medgar Evers College'):
     st.write('''
                 - Major: Business Administration 
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
@@ -78,7 +77,7 @@ elif page == '👔 About':
     st.write('''
                 - Graduated with A GED
                 - GED Math Score 157
-                - Earned 2 awards 
+                - Earned a 2024 Recognition Award
             ''')
 
   st.subheader('Interests & Hobbies 🌳')
@@ -104,5 +103,66 @@ elif page == '💼 Projects':
         st.subheader('🛒 E-Commerce Price Tracker')
         st.write('Python web scraper that monitors Amazon prices and sends alerts')
         st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+
+ # Project 2 
+  with st.container():
+    col1, col2 = st.columns([1,2])
+    with col1:
+      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+    with col2:
+      st.subheader('📊 Student Grade Calulator')
+      st.write('Interactive web app for calculating and visualizing grades')
+      st.caption('**Technologies:** Python, Pandas, Plotly')
+
+elif page == '🛠 Skills':
+  st.title('Technical Skills')
+
+  # Skills with progress bars
+  st.subheader('Programming Languages')
+
+  skills_data = {
+    'Python' : 85,
+    'HTML/CSS' : 70,
+    'JavaScript' : 60,
+    'SQL' : 50,
+    'Technical Writing' : 40
+  }
+
+  for skill, level in skills_data.items():
+    col1, col2 = st.columns([1,3])
+    with col1:
+      st.write(skill)
+    with col2:
+      st.progress(level/100)
+
+  st.subheader('Tools & Technologies')
+
+  col1, col2, col3 = st.columns(3)
+  with col1:
+    st.success('Excel')
+    st.info('Word')
+    st.warning('Access')
+
+  with col2:
+    st.success('PowerPoint')
+    st.info('Google Docs')
+    st.warning('ChatGPT/AI Tools')
+    
+  with col3:
+    st.success('Presentations')
+    st.info('Writing')
+    st.warning('Social Media')
+
+elif page == '📝 Resume':
+  st. title('Resume')
+
+  # Read PDF from GitHub repository
+  # with open('my_resume.pdf', 'rb') as file
+
+
+    
+      
+            
+
 
 
