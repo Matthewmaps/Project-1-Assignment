@@ -1,4 +1,7 @@
 import streamlit as st
 
-st.title('👋 Welcome to My Website')
-st.write("I'm building this live at home!")
+# Configure the page
+st.set_page_config(
+  page_title="Your Name - Portfolio",
+    page_icon=":book:",
+    layout="wide"
