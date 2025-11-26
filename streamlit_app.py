@@ -70,7 +70,7 @@ elif page == '👔 About':
     st.write('''
                 - Major: Business Administration 
                 - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-                - Activities: None
+                - Activities: Exercising
             ''')
 
   with st.expander('2022 - 2024: Pathways 2 Gradutation'):
