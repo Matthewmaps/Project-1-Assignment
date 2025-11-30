@@ -120,7 +120,7 @@ elif page == '🛠 Skills':
   # Skills with progress bars
   st.subheader('Programming Languages')
 
- skills_data =   {
+ skills_data = {
     'Python': 85,
     'HTML/CSS': 70,
     'JavaScript': 60,
