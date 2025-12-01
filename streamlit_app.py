@@ -20,7 +20,7 @@ st.markdown('''
 # Sidebar
 st.sidebar.title('📍Navigation')
 page = st.sidebar.radio('Go to',
-                        ['🏠 Home', '👔 About', '💼 Projects', '⚒️ Skills', '📝 Resume', '📩 Contact' ])
+                        ['🏠 Home', '👔 About', '💼 Projects', '⚒️ Skills', '📝 Resume', '📩 Contact',  ])
 
 # Home Page
 if page == '🏠 Home':
@@ -192,7 +192,7 @@ elif page == '📩 Contact':
     status = st.selectbox(
         "I'm currently:",
         [
-            '👩‍💻 Coding',
+            '🏫 Learning',
             '📕 Studying',
             '☕ On a coffee break',
             '🎮 Gaming',
@@ -206,7 +206,7 @@ elif page == '📩 Contact':
     # Footer
     st.write('---')
     st.markdown(
-        f'<center>Made with 💗 using Streamlit | © {datetime.now().year} Matthew Green </center>',
+        f'<center>Made with 💚 using Streamlit | © {datetime.now().year} Matthew Green. </center>',
         unsafe_allow_html = True
     )
 
