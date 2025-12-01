@@ -154,62 +154,62 @@ elif page == '⚒️ Skills':
     st.info('Writing')
     st.warning('Social Media')
 
-# elif page == '📝 Resume':
-#   st.title('Resume')
+elif page == '📝 Resume':
+  st.title('Resume')
 
-#   # Read PDF from GitHub repository
-#   with open('my_resume.pdf', 'rb') as pdf_file:
-#     PDFbyte = pdf_file.read()
+  # Read PDF from GitHub repository
+  with open('my_resume.pdf', 'rb') as pdf_file:
+    PDFbyte = pdf_file.read()
   
-#   st.download_button(
-#     label ='🔻 Download Full Resume (PDF)',
-#     data = PDFbyte,
-#     file_name = 'my_resume.pdf',
-#     mime ='application/pdf'
-#   )
+  st.download_button(
+    label ='🔻 Download Full Resume (PDF)',
+    data = PDFbyte,
+    file_name = 'my_resume.pdf',
+    mime ='application/pdf'
+  )
 
-# elif page == '📩 Contact':
-#   st.title("Let's Connect!")
+elif page == '📩 Contact':
+  st.title("Let's Connect!")
 
-#   col1, = st.columns(1)
+  col1, = st.columns(1)
 
-#   with col1:
-#     st.subheader('Send me a message.')
+  with col1:
+    st.subheader('Send me a message.')
 
-#     st.write('''
-#         📧 **Email:** matthewmaps@gmail.com
+    st.write('''
+        📧 **Email:** matthewmaps@gmail.com
 
-#         🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
+        🏢 **LinkedIn:** [linkedin.com/in/yourname](https://linkedin.com)
 
-#         👩‍💻 **Github:** [https://github.com/Matthewmaps](https://github.com)
+        👩‍💻 **Github:** [https://github.com/Matthewmaps](https://github.com)
 
-#         📷 **Phone Number:** [917-507-4542]
+        📷 **Phone Number:** [917-507-4542]
 
-#     ''')
+    ''')
 
-#     # Fun interactive element
-#     st.subheader('Current Status')
+    # Fun interactive element
+    st.subheader('Current Status')
 
-#     status = st.selectbox(
-#         "I'm currently:",
-#         [
-#             '🏫 Learning',
-#             '📕 Studying',
-#             '🎮 Gaming',
-#             '💪 Working out',
-#             '😴 Sleeping'
-#         ]
-#     )
+    status = st.selectbox(
+        "I'm currently:",
+        [
+            '🏫 Learning',
+            '📕 Studying',
+            '🎮 Gaming',
+            '💪 Working out',
+            '😴 Sleeping'
+        ]
+    )
 
 
-#     st.info(f'Status: {status}')
+    st.info(f'Status: {status}')
 
-#     # Footer
-#     st.write('---')
-#     st.markdown(
-#         f'<center>Made with 💚 using Streamlit | © {datetime.now().year} Matthew Green. </center>',
-#         unsafe_allow_html = True
-#     )
+    # Footer
+    st.write('---')
+    st.markdown(
+        f'<center>Made with 💚 using Streamlit | © {datetime.now().year} Matthew Green. </center>',
+        unsafe_allow_html = True
+    )
 
 
 
