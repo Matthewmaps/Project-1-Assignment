@@ -45,7 +45,7 @@ if page == '🏠 Home':
        st.subheader('Welcome to my digital space!👋')
        st.write('''
                   Hello, my name is Matthew Green. I am a Business Administration student who is currently 
-                  studying for an Associate's in Business Administration. I am currently learning
+                  studying for an Associate of Science degree in Business Administration. I am currently learning
                   English 150, Business 103, Sociology 101, and Math 136 for this semester. 
               
                   🎯 **Current Focus:** Pursuing My Associate's Degree in Business Administration
@@ -115,7 +115,7 @@ elif page == '💼 Projects':
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '⚒️ Skills':
-  st.title('Technical Skills')
+  st.title('Marketing Skills')
 
   # Skills with progress bars
   st.subheader('Programming Languages')
