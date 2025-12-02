@@ -97,7 +97,7 @@ elif page == '💼 Projects':
     col1, col2 = st.columns([1, 2])
   
     with col1:
-        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+        st.image('https://blaremedia.net/wp/wp-content/uploads/2023/05/Video_editor.jpg')
 
     with col2:
         st.subheader('📷 Editor Hiring Advertisment')
