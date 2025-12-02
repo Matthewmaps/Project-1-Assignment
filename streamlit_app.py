@@ -100,9 +100,9 @@ elif page == '💼 Projects':
         st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
 
     with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+        st.subheader('📷 Editor Hiring Advertisment')
+        st.write('An Ad campaign aiming to hire new editors')
+        st.caption('**Technologies:** Google Ads, Linkdin, Excel')
 
  # Project 2 
   with st.container():
@@ -110,9 +110,9 @@ elif page == '💼 Projects':
     with col1:
       st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
     with col2:
-      st.subheader('📊 Student Grade Calulator')
-      st.write('Interactive web app for calculating and visualizing grades')
-      st.caption('**Technologies:** Python, Pandas, Plotly')
+      st.subheader('🍽️ Resturant Marketing Campaign')
+      st.write('A marketing campaign that plans to attract customers')
+      st.caption('**Technologies:** youtube shorts, Tiktok, Instagram')
 
 elif page == '⚒️ Skills':
   st.title('Business Skills')
