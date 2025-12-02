@@ -108,7 +108,7 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1,2])
     with col1:
-      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+      st.image('https://a.storyblok.com/f/125576/2448x1220/18228840f7/hero_restaurant-marketing-tools.jpg/m/2448x0/filters:format(webp)')
     with col2:
       st.subheader('🍽️ Resturant Marketing Campaign')
       st.write('A marketing campaign that plans to attract customers')
