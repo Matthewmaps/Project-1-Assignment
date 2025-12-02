@@ -115,17 +115,17 @@ elif page == '💼 Projects':
       st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '⚒️ Skills':
-  st.title('Marketing Skills')
+  st.title('Business Skills')
 
   # Skills with progress bars
-  st.subheader('Programming Languages')
+  st.subheader('Marketing Skills')
     
   skills_data = {
-    'Python' : 85,
-    'HTML/CSS' : 70,
-    'JavaScript' : 60,
-    'SQL' : 50,
-    'Technical Writing' : 40
+    'Writing' : 85,
+    'Time Management' : 70,
+    ' Ad Campaigns' : 60,
+    'Team Collaberating' : 50,
+    ' Writing' : 50
   }
     
   for skill, level in skills_data.items():
@@ -142,7 +142,7 @@ elif page == '⚒️ Skills':
   with col1:
     st.success('Excel')
     st.info('Word')
-    st.warning('Access')
+    st.warning('Google Ads')
 
   with col2:
     st.success('PowerPoint')
