@@ -140,18 +140,18 @@ elif page == '⚒️ Skills':
   col1, col2, col3 = st.columns(3)
     
   with col1:
-    st.success('Excel')
-    st.info('Word')
+    st.success(' Microsoft Excel')
+    st.info('Microsoft Word')
     st.warning('Google Ads')
 
   with col2:
     st.success('PowerPoint')
     st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
+    st.warning('Google Slides')
     
   with col3:
-    st.success('Presentations')
-    st.info('Writing')
+    st.success('Canva')
+    st.info('Digital Advertising')
     st.warning('Social Media')
 
 elif page == '📝 Resume':
